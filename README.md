@@ -2,9 +2,9 @@ practice
 ========
 
 ## Erlang
-1.井字棋对战程序
-2.井字棋AI
-3.聊天室程序
+1. 井字棋对战程序
+2. 井字棋AI
+3. 聊天室程序
 
 ## 动态规则 
-1.longest increasing subsequence
+1. longest increasing subsequence

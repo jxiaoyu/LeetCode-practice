@@ -8,3 +8,7 @@ practice
 
 ## 动态规则 
 1. longest increasing subsequence
+2. zizag
+3. FlowerGarden
+4. AvoidRoads
+

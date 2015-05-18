@@ -1,4 +1,4 @@
-practice
+Practice
 ========
 
 ## Erlang
@@ -14,3 +14,5 @@ practice
 5. ChessMetric
 6. Jewelry
 
+## Other
+1. FlowerGarden

@@ -12,5 +12,5 @@ practice
 3. FlowerGarden
 4. AvoidRoads
 5. ChessMetric
-
+6. Jewelry
 

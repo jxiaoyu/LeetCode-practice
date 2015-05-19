@@ -1,4 +1,4 @@
-practice
+Practice
 ========
 
 ## Erlang
@@ -11,6 +11,9 @@ practice
 2. zizag
 3. FlowerGarden
 4. AvoidRoads
-5. StripePainter
+5. ChessMetric
+6. Jewelry
+7. StripePainter
 
-
+## Other
+1. FlowerGarden

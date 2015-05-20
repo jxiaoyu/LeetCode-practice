@@ -14,6 +14,7 @@ Practice
 5. ChessMetric
 6. Jewelry
 7. StripePainter
+8. QuickSums
 
 ## Other
 1. FlowerGarden

@@ -15,6 +15,7 @@ Practice
 6. Jewelry
 7. StripePainter
 8. QuickSums
+9. ShortPalindromes
 
 ## Other
 1. FlowerGarden

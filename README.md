@@ -16,6 +16,7 @@ Practice
 7. StripePainter
 8. QuickSums
 9. ShortPalindromes
+10. StarAdventure
 
 ## Other
 1. FlowerGarden

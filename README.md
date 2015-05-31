@@ -17,6 +17,7 @@ Practice
 8. QuickSums
 9. ShortPalindromes
 10. StarAdventure
+11. MiniPaint
 
 ## Other
 1. FlowerGarden

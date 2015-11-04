@@ -19,6 +19,8 @@ Practice
 10. StarAdventure
 11. MiniPaint
 
-## Other
+## LeetCode
+
+## others
 1. FlowerGarden
 2. 全排列和全组合

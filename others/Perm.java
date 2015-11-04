@@ -10,6 +10,7 @@ public class Perm {
     public static void perm(String s, List<Character> chars) {
         if (chars.size() == 1) {
             System.out.println(s + chars.get(0));
+            return;
         }
 
         for (int i = 0; i < chars.size(); i++) {

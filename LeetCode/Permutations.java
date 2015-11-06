@@ -1,21 +1,18 @@
 public class Solution {
     public List<List<Integer>> permute(int[] nums) {
-        perm(new ArrrayList<>(), nums, perms);
-        return perms;
-    }
-
-    public void perm(List<Integer> prefix, int[] nums, List<List<Integer>> perms) {
-        if (prefix.size() == nums.length) {
-            perms.add(new ArrayList<>(prefix));
-            return;
-        }
-
+        List<List<Integer>> perms = new ArrayList<List<Integer>>();
+        perms.add(new ArrayList<>());
         for (int i = 0; i < nums.length; i++) {
-            if (prefix.contains(nums[i])) 
-                continue;
-            prefix.add(nums[i]);
-            perm(prefix, nums, perms);
-            prefix.remove(prefix.size() - 1);
+            List<List<Integer>> tmpPerms = new ArrayList<List<Integer>>(perms);
+            perms.clear();
+            for (List<Integer> list : tmpPerms) {
+                for (int j = 0; j <= list.size(); j++) {
+                    List<Integer> tmp = new ArrayList<>(list);
+                    tmp.add(j, nums[i]);
+                    perms.add(tmp);
+                }
+            }
         }
+        return perms;
     }
 }

@@ -21,6 +21,7 @@ Practice
 
 ## LeetCode
 * TwoSum
+* 3Sum
 * Permutations
 
 ## others

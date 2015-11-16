@@ -23,6 +23,7 @@ Practice
 * TwoSum
 * 3Sum
 * 4Sum
+* 3Sum Closest
 * Permutations
 
 ## others

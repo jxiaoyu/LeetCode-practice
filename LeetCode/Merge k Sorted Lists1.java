@@ -11,6 +11,7 @@ public class Solution {
             return null;
         }
 
+        // 技巧1：PriorityQueue 是用二叉堆实现的。入列的时间复杂度是 lgn
         PriorityQueue<ListNode> queue = new PriorityQueue<>(new Comparator<ListNode>() {
             @Override
             public int compare(ListNode l1, ListNode l2) {

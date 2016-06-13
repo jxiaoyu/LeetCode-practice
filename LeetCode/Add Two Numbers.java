@@ -6,6 +6,8 @@
  *     ListNode(int x) { val = x; }
  * }
  */
+
+// 这道题主要考察链表中 dummy head 的使用
 public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int add = 0;

@@ -18,14 +18,3 @@ Practice
 * ShortPalindromes
 * StarAdventure
 * MiniPaint
-
-## LeetCode
-* TwoSum
-* 3Sum
-* 4Sum
-* 3Sum Closest
-* Permutations
-
-## others
-* FlowerGarden
-* 全排列和全组合

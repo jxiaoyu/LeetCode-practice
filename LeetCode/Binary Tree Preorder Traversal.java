@@ -12,7 +12,7 @@ import java.util.Stack;
  * }
  */
 public class Solution {
-    public List<Integer> postorderTraversal(TreeNode root) {
+    public List<Integer> pretorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<Integer>();
         if (root == null) {
             return list;

@@ -29,7 +29,6 @@ public class Solution {
             if (nodes[i].indegree == 0 && nodes[i].outers.size() == 0) {
                 numCourses--;
             } else if (nodes[i].indegree == 0) {
-                nodes[i].visited = true;
                 queue.offer(i);
             }
         }

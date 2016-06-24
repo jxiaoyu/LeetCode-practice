@@ -1,5 +1,5 @@
 /**
- * 转化为 dp 问题的关键在于，bst 树数量只跟节点数有关，而不用管这些节点是什么
+ * 转化为 dp 问题
  */
 public class Solution {
     public int numTrees(int n) {

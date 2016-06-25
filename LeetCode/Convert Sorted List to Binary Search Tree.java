@@ -18,7 +18,7 @@
  
  /**
   * 这里的解法是从网上看来的 http://bangbingsyb.blogspot.com/2014/11/leetcode-convert-sorted-list-to-binary.html
-  * 这里的思路也是递归，但是树却是自底向上构建的，前序遍历的思路，不是很自然
+  * 这里的思路也是递归，但是树却是自底向上构建的，跟前序遍历的递归思路比较像
   */
 public class Solution {
     static ListNode h;

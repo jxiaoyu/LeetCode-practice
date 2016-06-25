@@ -12,7 +12,7 @@
  */
 public class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        return buildTree(preorder, 0, preorder.length - 1, inorder, 0, inorder.length);
+        return buildTree(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1);
     }
     
     private TreeNode buildTree(int[] preorder, int ps, int pe, int[] inorder, int is, int ie) {

@@ -1,12 +1,7 @@
 Practice
 ========
 
-## Erlang
-* 井字棋对战程序
-* 井字棋AI
-* 聊天室程序
-
-## 动态规则 
+### DP
 * longest increasing subsequence
 * zizag
 * FlowerGarden
@@ -18,3 +13,5 @@ Practice
 * ShortPalindromes
 * StarAdventure
 * MiniPaint
+
+### LeetCode

@@ -4,11 +4,7 @@
  */
 public class Solution {
     public int findMin(int[] nums) {
-        int l = 0, r = nums.length - 1;
-        if (nums[l] < nums[r]) {
-            return nums[l];
-        }
-        return findMinHelper(nums, l, r);
+        return findMinHelper(nums, 0, nums.length - 1);
     }
     
     private int findMinHelper(int[] nums, int l, int r) {

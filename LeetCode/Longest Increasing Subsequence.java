@@ -1,5 +1,6 @@
 /**
- * dp 思路
+ * LIS 问题有两种解法：dp 和 二分搜索
+ * dp 的时间复杂度是 O(n^2)，二分的时间复杂度是 O(nlgn)
  */
 public class Solution {
     public int lengthOfLIS(int[] nums) {

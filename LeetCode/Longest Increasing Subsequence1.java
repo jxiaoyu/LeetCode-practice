@@ -1,5 +1,5 @@
 /**
- * 时间复杂度 O(nlgn)
+ * 二分搜索的思路
  */
 public class Solution {
     public int lengthOfLIS(int[] nums) {

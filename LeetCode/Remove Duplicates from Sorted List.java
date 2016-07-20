@@ -6,6 +6,10 @@
  *     ListNode(int x) { val = x; }
  * }
  */
+
+/**
+ * 对比 Remove Duplicates from Sorted Array，链表反而更简单
+ */
 public class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         Set<Integer> set = new HashSet<>();

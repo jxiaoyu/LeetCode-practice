@@ -1,5 +1,5 @@
 /**
- * 先做的 Surrounded Regions，在其基础上稍微修改下就可以了
+ * 先做的 Surrounded Regions，没多想，在其基础上稍微修改下就提交了
  */
 public class Solution {
     public int numIslands(char[][] grid) {

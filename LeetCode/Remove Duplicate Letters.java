@@ -1,5 +1,5 @@
 /**
- * 用到栈
+ * 总结一下：这种遍历时需要回溯的问题，栈是比较合适的数据结构
  */
 public class Solution {
     public String removeDuplicateLetters(String s) {

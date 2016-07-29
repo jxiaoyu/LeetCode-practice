@@ -1,5 +1,6 @@
 /**
  * 这思路很巧，出现次数大于 ⌊ n/3 ⌋ 的数最多就2个
+ * 原来这方法是有名字的，叫 Boyer–Moore majority vote algorithm
  */
 public class Solution {
     public List<Integer> majorityElement(int[] nums) {

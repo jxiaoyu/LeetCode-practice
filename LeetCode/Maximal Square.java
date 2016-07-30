@@ -1,30 +1,31 @@
 /**
  * dp
- * 以当前点(x,y) = '1' 为右下角的最大正方形的边长f(x,y) = min( f(x-1,y), f(x,y-1), f(x-1,y-1)) + 1
+ * 浠ュ綋鍓嶇偣(x,y) = '1' 涓哄彸涓嬭鐨勬渶澶ф鏂瑰舰鐨勮竟闀縡(x,y) = min( f(x-1,y), f(x,y-1), f(x-1,y-1)) + 1
  */
+
 public class Solution {
     public int maximalSquare(char[][] matrix) {  
-        if(matrix==null || matrix.length==0 || matrix[0].length==0) return 0;  
-          
+        if(matrix==null || matrix.length==0 || matrix[0].length==0) return 0;        
         int n = matrix.length;  
         int m = matrix[0].length;  
           
         int[][] d = new int[n][m];  
         int max = 0;  
-  
+
         for(int i=0; i<n; i++) {  
             if(matrix[i][0]=='1') {  
                 d[i][0] = 1;  
                 max = 1;  
             }
         }
-          
+
         for(int j=0; j<m; j++) {  
             if(matrix[0][j]=='1') {  
                 d[0][j] = 1;  
                 max = 1;
             }  
         }  
+
         for(int i=1; i<n; i++) {  
             for(int j=1; j<m; j++) {  
                 if(matrix[i][j]=='0') d[i][j]=0;  
@@ -34,6 +35,6 @@ public class Solution {
                 }  
             }  
         }  
-        return max*max;  
+        return max*max;
     }
 }

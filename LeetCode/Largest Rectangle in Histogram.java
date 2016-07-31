@@ -1,6 +1,10 @@
 /**
  * naive 的思路两重循环 O(n^2)
- * 这里的思路来自 http://www.cnblogs.com/lichen782/p/leetcode_Largest_Rectangle_in_Histogram.html
+ * 这里的思路想明白了也很简单。举个特例：heights 是一个单调增序列，那么过程就是全部入栈，再出栈
+ * 对于出栈的 x, 以它为起点所能围成的最大面积，就是 h(x) * x到最右的宽度
+ *
+ * 推广到一般情况，当一个元素出栈时，求的面积的含义就是
+ * 画一条线 y = h, 这条线和直方图围成的面积。这就是 w = stack.empty() ? i : (i - stack.peek() - 1) 的由来
  */
 public class Solution {
     public int largestRectangleArea(int[] heights) {

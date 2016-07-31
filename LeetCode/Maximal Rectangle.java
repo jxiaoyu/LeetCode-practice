@@ -2,7 +2,7 @@
  * 一开始以为可以延续 Maximal Square 的思路，用二维数组保存当前最大 rect 的 w, h, dp 求最大的 w, h
  * 后来发现这个思路和递推关系是不对的
  * 
- * 思路见 http://www.cnblogs.com/TenosDoIt/p/3454877.html
+ * 这里的思路见 http://www.cnblogs.com/TenosDoIt/p/3454877.html 时间复杂度 O(n^3)
  */
 public class Solution {
     public int maximalRectangle(char[][] matrix) {

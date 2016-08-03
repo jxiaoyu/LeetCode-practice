@@ -1,5 +1,5 @@
 /**
- * 贪心
+ * 贪心算法，求截至位置 i 时所能去到的最远位置
  */
 public class Solution {
     public boolean canJump(int[] nums) {

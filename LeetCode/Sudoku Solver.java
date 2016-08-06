@@ -1,5 +1,5 @@
 /**
- * dfs
+ * dfs, 跟 N 皇后问题还是有一些相似的，可以放一起看
  */
 public class Solution {
     public void solveSudoku(char[][] board) {

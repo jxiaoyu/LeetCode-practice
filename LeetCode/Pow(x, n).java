@@ -1,6 +1,6 @@
 /**
- * 这题并吧难，思想上注意要用折半的方法，这样时间复杂度 lg(n)
- * 但是还是有细节值得注意。n 是负数的时候要转成 long 型再转正
+ * 二分，时间复杂度 lg(n)
+ * 有细节值得注意。n 是负数的时候要转成 long 型再转正
  */
 public class Solution {
     public double myPow(double x, int n) {

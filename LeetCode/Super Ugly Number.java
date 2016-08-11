@@ -1,9 +1,6 @@
-import java.util.Comparator;
-import java.util.PriorityQueue;
-
 /**
- * 这题和 Ugly Number II 类似，用 dp 的思路应该也是可以的
- * 不过这里把它当成 k lists merge 来做
+ * PriorityQueue
+ * 当成 k lists merge 来做
  */
 public class Solution {
     public int nthSuperUglyNumber(int n, int[] primes) {

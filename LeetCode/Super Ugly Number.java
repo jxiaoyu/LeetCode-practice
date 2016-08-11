@@ -1,6 +1,6 @@
 /**
  * PriorityQueue
- * 当成 k lists merge 来做
+ * 像 k lists merge 的思路
  */
 public class Solution {
     public int nthSuperUglyNumber(int n, int[] primes) {
@@ -21,18 +21,17 @@ public class Solution {
         queue.offer((new Node(1, -1)));
 
         int i = 0;
-        while (true) {
-            Node node = queue.poll();
+        Node node = null;
+        while (i < n) {
+            node = queue.poll();
             if (i == 0 || node.val != seq[i-1]) {
-                if (i + 1 == n) {
-                    return node.val;
-                }
                 seq[i++] = node.val;
             }
             if (node.index != -1) {
                 queue.offer(new Node(seq[++times[node.index]] * primes[node.index], node.index));
             }
         }
+        return node.val;
     }
 
     class Node {

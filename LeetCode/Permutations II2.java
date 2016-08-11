@@ -1,10 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-/**
- * Created by jxiao on 2016/6/11.
- */
 public class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
         Arrays.sort(nums);

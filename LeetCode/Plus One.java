@@ -1,4 +1,6 @@
-// 考察数组的基本操作，无难点
+/**
+ * 考察数组的基本操作，无难点
+ */
 public class Solution {
     public int[] plusOne(int[] digits) {
         int add = 1;

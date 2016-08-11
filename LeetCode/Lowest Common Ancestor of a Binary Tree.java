@@ -20,7 +20,6 @@
  * }
  * 但是到后面的用例 m,n 太大了，用 long 型都溢出了。毕竟是指数啊
  */
-
 public class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null || root == p || root == q) {

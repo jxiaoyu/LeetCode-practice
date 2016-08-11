@@ -1,11 +1,3 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-/**
- * Created by river on 2016/5/21.
- */
 public class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
 

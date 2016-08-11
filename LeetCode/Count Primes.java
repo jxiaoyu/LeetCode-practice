@@ -6,7 +6,6 @@
  * 看提示用筛法时间复杂度更小
  * 开始用 HashMap 来记录筛出来的数，过不了，看提示用数组来记录，过了
  */
-
 public class Solution {
     public int countPrimes(int n) {
         if (n <= 1) {

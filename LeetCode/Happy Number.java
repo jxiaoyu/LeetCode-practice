@@ -1,10 +1,6 @@
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * 题目给了提示，如果不以 1 终结的话，将会进入一个循环，所以用一个 hashmap 记录下历史，如果陷入循环就返回 false
  */
-
 public class Solution {
     public boolean isHappy(int n) {
         Map<Integer, Boolean> map = new HashMap<Integer, Boolean>();

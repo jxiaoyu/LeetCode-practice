@@ -9,7 +9,7 @@
  */
  
  /**
-  * 用递归思想就不难了
+  * 想到递归就不难了
   */
 public class Solution {
     public void flatten(TreeNode root) {

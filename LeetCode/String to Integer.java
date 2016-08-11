@@ -3,7 +3,6 @@
  *空格，非数字字符
  *以及数超出 int 型
  */
-
 public class Solution {
     public int myAtoi(String str) {
         if (str == null) {

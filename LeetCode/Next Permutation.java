@@ -1,9 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
-/**
- * Created by river on 2016/6/12.
- */
 public class Solution {
     public void nextPermutation(int[] nums) {
 

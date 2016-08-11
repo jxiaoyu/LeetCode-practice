@@ -1,8 +1,3 @@
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
 /**
  * 这题跟 Word Search 很像。所以一开始拿到这题就直接写了个循环调用 Word Search 的 exist 方法，但是发现有的测试用例超时
  * 当需要判断的单词量相对于 board 可能的组合已经比较大的时候，用这种方法就不经济了。还不如遍历棋盘的组合
@@ -15,7 +10,6 @@ import java.util.Set;
  * 另外注释部分是我自己实现的 dfs，比较自然。
  * 非注释的 dfs 相对来说更简洁，但是运行速度却更慢，应该是因为每次 dfs 都要生成新的 str
  */
-
 public class Solution {
 
     private Set<String> result = new HashSet<String>();

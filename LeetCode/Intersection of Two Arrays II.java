@@ -1,8 +1,3 @@
-import java.util.*;
-
-/**
- * Created by jxiao on 2016/6/11.
- */
 public class Solution {
 
     public int[] intersect(int[] nums1, int[] nums2) {

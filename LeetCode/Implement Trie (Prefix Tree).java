@@ -1,7 +1,6 @@
 /**
  * 考察对数据结构 Trie 的理解和实现
  */
-
 class TrieNode {
 
     private TrieNode[] children;

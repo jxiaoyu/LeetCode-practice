@@ -1,7 +1,3 @@
-
-/**
- * Created by jxiao on 2016/6/11.
- */
 public class Solution {
 
     public String getPermutation(int n, int k) {

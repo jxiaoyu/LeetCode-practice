@@ -1,8 +1,3 @@
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
-
 /**
  * 在 Course Schedule 的基础上这题就没什么难度了，修改一下就可以了
  */

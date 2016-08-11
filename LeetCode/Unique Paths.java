@@ -1,7 +1,6 @@
 /**
  * dp 的经典题目
  */
-
 public class Solution {
     public int uniquePaths(int m, int n) {
         int[][] ways = new int[m][n];

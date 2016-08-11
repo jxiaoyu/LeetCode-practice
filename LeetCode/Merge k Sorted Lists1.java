@@ -1,9 +1,3 @@
-import java.util.Comparator;
-import java.util.PriorityQueue;
-
-/**
- * Created by jxiao on 2016/6/11.
- */
 public class Solution {
 
     public ListNode mergeKLists(ListNode[] lists) {

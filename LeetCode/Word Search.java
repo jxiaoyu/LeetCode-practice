@@ -2,7 +2,6 @@
  * 数据结构考察二维数组的初始化和使用
  * 算法考 dfs
  */
-
 public class Solution {
 
     public boolean exist(char[][] board, String word) {

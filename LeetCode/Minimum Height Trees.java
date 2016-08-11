@@ -1,13 +1,7 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.List;
-
 /**
  * 思路是所求节点是在最长路径的中间，把叶子节点一层层去掉，最后剩下的就是所求节点
  * 当所有的数都落在一定范围的时候，可以用数组或ArrayList这样的数据结构，比HashMap快
  */
-
 public class Solution {
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
         if (n == 1) return Collections.singletonList(0);

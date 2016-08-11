@@ -1,7 +1,6 @@
 /**
  * dp 问题，不过要注意特殊情况的处理
  */
-
 public class Solution {
     public int integerBreak(int n) {
         int[] records = new int[n+1];

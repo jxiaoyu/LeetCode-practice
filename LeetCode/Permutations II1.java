@@ -1,11 +1,3 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-/**
- * Created by river on 2016/6/12.
- */
 public class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> perms = new ArrayList<List<Integer>>();

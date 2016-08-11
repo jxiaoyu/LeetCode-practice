@@ -2,7 +2,6 @@
  * 这题真是提交了无数次，完全是靠测试用例来修改代码
  * 逻辑上没什么难点，关键是要把各种情况考虑清楚。一直到最后测试通过我才算把逻辑理清
  */
-
 public class Solution {
     public boolean isNumber(String s) {
         if (s == null) {

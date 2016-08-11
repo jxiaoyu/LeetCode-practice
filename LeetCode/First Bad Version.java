@@ -1,6 +1,3 @@
-/**
- * Created by jxiao on 2016/6/11.
- */
 public class Solution extends VersionControl {
 
     public int firstBadVersion(int n) {

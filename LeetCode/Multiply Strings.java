@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * 注意就考察乘法的实现及相关类的使用
  * 细节要注意 0 的处理

@@ -2,6 +2,7 @@
  * key value 用 map 来实现自不必说，为了保留使用顺序需要一个线性的结构
  * LinkedHashMap 就保持着插入顺序，可以满足这一需求
  * 这里用双向链表的原因是 remove 一个节点时间复杂度是 O(1), 而单向链表是 O(n)
+ * 不清楚 LinkedHashMap 的数据结构，结点间可能也是双向的链表
  */
 class Node{
     int key;

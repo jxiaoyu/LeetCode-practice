@@ -1,6 +1,6 @@
 /**
- * PriorityQueue
- * k lists merge sort 问题
+ * k lists merge sort 的思路
+ * 但是其实只利用了一个维度上的有序，时间复杂度 O((n+k)lgn)
  */
 public class Solution {
     public int kthSmallest(int[][] matrix, int k) {

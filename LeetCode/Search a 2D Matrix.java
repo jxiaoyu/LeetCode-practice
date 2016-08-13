@@ -1,5 +1,6 @@
 /**
- * 找两次
+ * binary search 
+ * 先搜一个维度，再搜另一个维度
  */
 public class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
@@ -16,7 +17,7 @@ public class Solution {
                 l = mid + 1;
             }
         }
-        
+
         int subl = 0, subr = n;
         while (subl <= subr) {
             if (subl == subr) {

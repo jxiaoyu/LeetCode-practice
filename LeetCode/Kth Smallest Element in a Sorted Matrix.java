@@ -1,5 +1,6 @@
 /**
  * PriorityQueue
+ * k lists merge sort 问题
  */
 public class Solution {
     public int kthSmallest(int[][] matrix, int k) {

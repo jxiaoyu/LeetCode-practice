@@ -13,5 +13,3 @@ Practice
 * ShortPalindromes
 * StarAdventure
 * MiniPaint
-
-### LeetCode

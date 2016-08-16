@@ -1,6 +1,6 @@
 # Write your MySQL query statement below
 SELECT
-    t.Request_at DAY,
+    t.Request_at `Day`,
     round(
         sum(
             CASE
@@ -11,7 +11,7 @@ SELECT
             END
         ) / count(*),
         2
-    ) Cancellation Rate
+    ) `Cancellation Rate`
 FROM
     Trips t
 INNER JOIN Users u ON t.Client_Id = u.Users_Id
